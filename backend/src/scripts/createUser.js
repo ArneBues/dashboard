@@ -1,0 +1,14 @@
+"use strict";
+exports.__esModule = true;
+var typeorm_1 = require("typeorm");
+var user_1 = require("../entity/user");
+var user = new user_1.User();
+var PASSWORD = 'test';
+user.name = 'test';
+user.email = 'test@test.de';
+user.role = user_1.UserRole.ADMIN;
+user.setPassword(PASSWORD);
+typeorm_1.getRepository('user').save(user);
+console.log('Benutzer erstellt');
+console.log('Email: ' + user.email);
+console.log('Password: ' + user.password);

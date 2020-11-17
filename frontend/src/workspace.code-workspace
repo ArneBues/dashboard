@@ -1,0 +1,16 @@
+{
+	"folders": [
+		{
+			"path": ".."
+		},
+		{
+			"path": "..\\..\\..\\..\\..\\AppData\\Local\\Temp\\7zE8674FEE2\\dist"
+		},
+		{
+			"path": "..\\..\\..\\..\\..\\AppData\\Local\\Temp\\7zE8674FEE2\\public"
+		}
+	],
+	"settings": {
+		"god.tsconfig": "./tsconfig.json"
+	}
+}

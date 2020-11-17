@@ -1,0 +1,18 @@
+{
+    "god.tsconfig": "./tsconfig.json", 
+    "editor.codeActionsOnSave": {
+        "source.fixAll": true
+    },
+    "eslint.validate": [
+        "vue",
+        "html",
+        "javascript",
+        "typescript",
+    ],
+    "appService.zipIgnorePattern": [
+        "node_modules{,/**}",
+        ".vscode{,/**}"
+    ],
+    "appService.defaultWebAppToDeploy": "/subscriptions/94b1399b-3c0b-4bee-ac0e-2742dea8e054/resourceGroups/Uni/providers/Microsoft.Web/sites/UrkundDashboard",
+    "appService.deploySubpath": "."
+}
